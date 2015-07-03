@@ -1,0 +1,91 @@
+﻿
+ <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<HEAD>
+		<META HTTP-EQUIV="Content-Language" CONTENT="pl">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<META HTTP-EQUIV="Content-Language" CONTENT="pl">
+		<META NAME="Description" CONTENT="Ochrona Danych">
+		<title>{{ title }}</title>
+		<LINK REL="Stylesheet" HREF="{{ url_for('static', filename='style.css') }}">
+		<META NAME="Author" CONTENT="Abra">
+		<META NAME="Robots" CONTENT="noindex">
+<!--// cache-->
+		<META HTTP-EQUIV="Expires" CONTENT="0">
+		<META HTTP-EQUIV="Cache-Control" CONTENT="no-store, no-cache, must-revalidate">
+     	<META HTTP-EQUIV="Cache-Control" CONTENT="post-check=0, pre-check=0">
+     	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+		<script type="text/javascript" src="{{ url_for('static', filename='entropia.js') }}"></script>
+	</HEAD>
+
+    <BODY>
+		<div class = naglowek>
+			<div class = naglowek2>
+				<a class = cwiczenia href="/">Strona główna</a>
+			</div>
+			<div class = naglowek2>
+				<a class = cwiczenia href="snippet">Notatki</a>
+			</div>
+			{% if not session.username %}
+			<div class = naglowek2>
+				<a class = cwiczenia href="login">Zaloguj</a>
+			</div>
+			<div class = naglowek2>
+				<a class = cwiczenia href="register">Zarejestruj</a>
+			</div>
+			{% else %}
+			<div class = naglowek2>
+				<a class = cwiczenia href="changepass">Moje Konto</a>
+			</div>
+			<div class = naglowek2>
+				<a class = cwiczenia href="logout">Wyloguj</a>
+			</div>
+			{% endif %}
+		</div>
+		<div class = glowna >
+			<br><br>
+            <h2>Rejestracja użytkownika</h2>
+            <br><br>
+		{{ error }}
+				<form action="" method="POST">
+					<div class="blok">
+                        <div class="lewo">Nazwa użytkownika: *</div>
+                        	<div class="srodek">
+                                <input class="inputFormularz" type="text" name=username maxlength="30">
+                        	</div>
+                        <div class="prawo"><span>max. 30 znaków</span></div>
+                    </div>
+					<div class="blok">
+                        <div class="lewo">Hasło: *</div>
+                        	<div class="srodek">
+                                <input class="inputFormularz" id="haslo" type="password" name=password onkeyup="entropy();">
+                        	</div>
+                        <div class="prawo"><span>bez znaków specjalnych (`, ', <, >, [, ], ;)</span></div>
+                    </div>
+					<div class="blok">
+                        <div class="lewo">Powtórz hasło: *</div>
+                        	<div class="srodek">
+                                <input class="inputFormularz" type="password" name=password2>
+                        	</div>
+                        <div class="prawo"><span></span></div>
+                    </div>
+                    <div class="blok">
+                        <div class="lewo">Entropia (siła hasła): *</div>
+                        	<div class="srodek">
+                                <input class="inputFormularz" id="entro" type="text" name=entropia readonly="readonly">
+                        	</div>
+                        <div class="prawo"><span></span></div>
+                    </div>
+                    <div class="blok">
+                        <div class="lewo"></div>
+                        	<div class="srodek">
+                                <input type=submit value=Rejestruj>
+                            </div>
+                        <div class="prawo"><span></span></div>
+                    </div>
+				</form>
+			<br>
+		</div>
+	</Body>
+	
+</html>

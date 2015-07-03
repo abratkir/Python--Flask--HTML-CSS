@@ -1,0 +1,90 @@
+html, body { height: 100%; }
+
+a.cwiczenia{
+	color: white;
+	text-decoration: none;
+}
+
+body {
+	background: #EEEEEE;
+	/*background-image: url(tap.jpg);*/
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: #EEEEEE;
+}
+
+div.naglowek {
+	color:white;
+	text-align:center;
+	width: 100%;
+	height: 25px; 
+	border: outset 2px;
+	border-collapse: separate;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background: white;
+	margin-bottom: 5px;
+	min-width: 863px;
+}
+
+div.naglowek2 {
+	background: #003FFF;
+	text-align: center;
+	border: outset 1px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	float:left;
+	width: 24.77%;
+	height: 90%;
+	min-width: 100px;
+}
+
+div.glowna {
+	background: white;
+	WIDTH: 100%; 
+	border: outset 1px;
+	border-collapse: separate;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	height: auto;
+	float:left;
+	padding:2px;
+	min-width: 860px;
+	min-height: 575px;
+	vertical-align: top;
+	text-align: center;
+}
+
+div.lewo {
+    width: 24%;
+    margin: 5px;
+    float: left;
+}
+
+div.srodek {
+    width: 50%;
+    float: left;
+    margin: 5px;
+    margin-right: 10px;
+}
+
+div.prawo {
+    min-width: 23%;
+    margin: 5px;
+    float: left;
+}
+
+div.blok {
+    width: 100%;
+    min-width: 840px;
+    margin: 5px;
+    }
+
+.inputFormularz {
+    width: 100%;
+    margin-right: 10px;
+}
+
+#blok {
+    overflow: hidden;
+}

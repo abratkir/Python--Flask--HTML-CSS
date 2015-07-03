@@ -1,0 +1,48 @@
+Certificate:
+    Data:
+        Version: 1 (0x0)
+        Serial Number: 1 (0x1)
+    Signature Algorithm: md5WithRSAEncryption
+        Issuer: C=PL, ST=Mazovia, L=Warsaw, O=PW, OU=PW, CN=PW/emailAddress=abratkir@ee.pw.edu.pl
+        Validity
+            Not Before: Jun 29 06:30:24 2015 GMT
+            Not After : Jun 28 06:30:24 2016 GMT
+        Subject: C=EU, ST=POLAND, L=Metropolis, O=UW, OU=UW, CN=UW/emailAddress=uw@edu.pl
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:dd:67:66:23:46:84:b5:6d:67:ac:46:dc:86:c4:
+                    ff:e4:17:bf:5d:e2:9a:87:62:21:fd:3e:79:d0:ca:
+                    8d:fd:a1:1b:ea:45:b3:57:7c:6d:00:30:24:e6:2e:
+                    f7:99:1e:83:cc:3e:3a:d7:ac:98:0b:77:24:9e:7f:
+                    2f:d2:42:27:3b:bf:2d:81:9f:ab:04:b4:36:74:34:
+                    94:01:2c:b6:08:22:2a:d1:59:79:4a:0f:cc:25:7a:
+                    33:39:1e:a7:a0:82:67:44:41:9b:e8:e4:d4:cb:62:
+                    39:17:2e:8f:0d:ee:22:1d:a4:06:d8:ff:07:67:4a:
+                    91:d8:ba:20:72:86:67:04:9f
+                Exponent: 65537 (0x10001)
+    Signature Algorithm: md5WithRSAEncryption
+         0d:e5:9c:5f:56:89:a2:97:3c:c3:44:84:e3:f6:45:b3:17:02:
+         f4:8a:70:95:2a:50:f9:c6:47:28:f6:54:17:50:11:a3:1d:01:
+         a3:5b:7e:b3:00:c4:c7:b7:c5:29:c3:10:49:da:5e:ba:6c:ce:
+         47:7a:bc:30:92:7f:ad:13:49:87:9b:8a:07:67:52:96:f9:1a:
+         17:36:f3:e1:00:a5:84:e2:e3:55:0b:7e:77:c5:9f:3a:8c:e2:
+         cd:d2:e2:27:8e:a5:5c:ee:00:c0:fd:f1:5a:19:e1:64:dc:c8:
+         a1:3a:07:20:10:a5:92:62:b0:2e:e1:8b:a5:73:4b:57:03:ea:
+         51:b0
+-----BEGIN CERTIFICATE-----
+MIICYDCCAckCAQEwDQYJKoZIhvcNAQEEBQAwfTELMAkGA1UEBhMCUEwxEDAOBgNV
+BAgMB01hem92aWExDzANBgNVBAcMBldhcnNhdzELMAkGA1UECgwCUFcxCzAJBgNV
+BAsMAlBXMQswCQYDVQQDDAJQVzEkMCIGCSqGSIb3DQEJARYVYWJyYXRraXJAZWUu
+cHcuZWR1LnBsMB4XDTE1MDYyOTA2MzAyNFoXDTE2MDYyODA2MzAyNFowdDELMAkG
+A1UEBhMCRVUxDzANBgNVBAgMBlBPTEFORDETMBEGA1UEBwwKTWV0cm9wb2xpczEL
+MAkGA1UECgwCVVcxCzAJBgNVBAsMAlVXMQswCQYDVQQDDAJVVzEYMBYGCSqGSIb3
+DQEJARYJdXdAZWR1LnBsMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDdZ2Yj
+RoS1bWesRtyGxP/kF79d4pqHYiH9PnnQyo39oRvqRbNXfG0AMCTmLveZHoPMPjrX
+rJgLdySefy/SQic7vy2Bn6sEtDZ0NJQBLLYIIirRWXlKD8wlejM5HqeggmdEQZvo
+5NTLYjkXLo8N7iIdpAbY/wdnSpHYuiByhmcEnwIDAQABMA0GCSqGSIb3DQEBBAUA
+A4GBAA3lnF9WiaKXPMNEhOP2RbMXAvSKcJUqUPnGRyj2VBdQEaMdAaNbfrMAxMe3
+xSnDEEnaXrpszkd6vDCSf60TSYebigdnUpb5Ghc28+EApYTi41ULfnfFnzqM4s3S
+4ieOpVzuAMD98VoZ4WTcyKE6ByAQpZJisC7hi6VzS1cD6lGw
+-----END CERTIFICATE-----
